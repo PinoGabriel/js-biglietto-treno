@@ -3,7 +3,7 @@ const chilometri = parseInt (prompt("Inserisci numero di chilometri da percorrer
 const eta = prompt("Inserisci la tua età?", "17")
 
 let prezzo = (chilometri * 0,21)
-let costo = num.toFixed(2);
+let costo = costo.toFixed(2);
 
 if (eta <= 17) {
     costo = (prezzo - 20%);
